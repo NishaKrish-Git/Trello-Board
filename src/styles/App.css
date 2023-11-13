@@ -1,0 +1,139 @@
+/* *{
+    background: rgb(19, 9, 9);
+} */
+
+.n-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #0055cc;
+}
+
+#n-list {
+  display: none;
+
+  /* height: 70px; */
+  /* padding-top:25px; */
+}
+.contact {
+  display: none;
+}
+.n-left {
+  padding: 0 0 0 20px;
+}
+.n-name {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.n-right {
+  padding: 0 0 0 20px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#n-list > ul {
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  padding: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.mobile-menu-icons {
+  display: none;
+}
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+#mobile {
+  display: none;
+}
+#mobile i {
+  color: #fff;
+  align-items: center;
+}
+.n-right > .moon > img {
+  height: 70px;
+  width: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    display: inline;
+  }
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 576px) {
+  .n-right > .moon > img {
+    display: none;
+  }
+  #n-list {
+    display: inline;
+  }
+}
+
+/* Break Points for Mobile */
+/* @media screen and (max-width:360px){
+ .n-right>.moon>img{
+  height: 160px;
+  width: 150px;
+  position: relative;
+  margin-left: -65px;
+  margin-top: -30px;
+ }
+}
+
+@media screen and (max-width:480px) {
+#n-list{
+      margin-bottom: -25px;
+  }
+  
+ #n-list ul {
+   
+    display: none;
+    
+    }
+   
+   .moon img{
+visibility: visible;
+height: 70px;
+
+   }
+   .mmon img:hover{
+      transform: scale(0.9);
+   }
+
+    .n-button{
+      display: none;
+    }
+} */
+
+/* Break Point for ipads and tablets */
+
+/* @media screen and (min-width:481px) and (max-width:768px){
+  .n-name{
+      margin-left: -50px;
+  }
+  #n-list>ul{
+      margin-left: -38px;
+      font-size: 25px;
+  }
+  .n-button{
+      margin-left: -50px;
+  }
+} */
